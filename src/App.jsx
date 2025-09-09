@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Inicio />}>
           <Route path="ficcion" element={<h1>Libros de ficción</h1>} />
-          <Route path="no-ficcion" element={<h1>Libros de no ficción</h1>} />
+          <Route path="no-" element={<h1>Libros de no ficción</h1>} />
 
           <Route path="agregar" element={<AgregarLibro />} />
         </Route>
