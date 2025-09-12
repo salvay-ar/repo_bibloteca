@@ -14,10 +14,17 @@ export default function Inicio() {
     <>
       <nav>
         <h1>Bibloteca "Encontrá tu libro"</h1>
-        <Link to="/">Bibloteca</Link>
-        <Link to="/ficcion">Libros ficción</Link>
-        <Link to="/no-ficcion">Libros no ficción</Link>
-        <Link to="/agregar">Agregar libro</Link>
+        <ul>
+          <li>
+            <Link to="/">Inicio</Link>
+          </li>
+          <li>
+            <Link to="/libros/ficcion">Libros de ficción</Link>
+          </li>
+          <li>
+            <Link to="/libros/no-ficcion">Libros de no ficción</Link>
+          </li>
+        </ul>
       </nav>
 
       <Outlet />
